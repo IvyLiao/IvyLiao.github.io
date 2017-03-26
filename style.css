@@ -5,39 +5,36 @@
 /* Font Color */
 
 @font-face {
-    font-family: 'SleekSL';
-    src: url(Resources/weblysleek_ui/weblysleekuisl.ttf);
+    font-family: 'FuturaStd-Medium';
+    src: url(Resources/Futura/FuturaStd-Medium.otf);
+}
+@font-face {
+    font-family: 'FuturaStd-MediumOblique';
+    src: url(Resources/Futura/FuturaStd-MediumOblique.otf);
 }
 
 @font-face {
-    font-family: 'SleekL';
-    src: url(Resources/weblysleek_ui/weblysleekuil.ttf);
+    font-family: 'FuturaStd-Light';
+    src: url(Resources/Futura/FuturaStd-Light.otf);
 }
 
 @font-face {
-    font-family: 'SleekLi';
-    src: url(Resources/weblysleek_ui/weblysleekuili);
+    font-family: 'FuturaStd-LightOblique';
+    src: url(Resources/Futura/FuturaStd-LightOblique.otf);
 }
 
 @font-face {
-    font-family: 'SleekSB';
-    src: url(Resources/weblysleek_ui/weblysleekuisb);
+    font-family: 'FuturaStd-Heavy';
+    src: url(Resources/Futura/FuturaStd-Heavy.otf);
 }
 
-@font-face {
-    font-family: 'SleekSBI';
-    src: url(Resources/weblysleek_ui/weblysleekuisbi);
-}
 
-@font-face {
-    font-family: 'SleekLI';
-    src: url(Resources/weblysleek_ui/weblysleekuisli);
-}
+
 
 /* Font */
 
 body {
-    background-color: black;
+    background-color: white;
     margin: 0px;
     padding: 0px;
 }
@@ -47,96 +44,16 @@ div {
     display: block;
 }
 
-/*RESUMEEEE*/
 
-article {
-    font-size:12pt;
-    line-height: 20px;
-    
-}
-
-.education{
-    color:white;
-    font-family: 'SleekSL', 'Arial', sans-serif;
-}
-
-.experience{
-    color:white;
-    font-family: 'SleekSL', 'Arial', sans-serif;
-}
-
-.advanced{
-    color:white;
-    font-family: 'SleekSL', 'Arial', sans-serif;
-}
-
-.leadership {
-    color:white;
-    font-family: 'SleekSL', 'Arial', sans-serif;
-}
-
-#resume {
-    margin-left: 50px;
-    padding-bottom: 10%;
-    padding-top: 5%;
-    width:100%;
-}
-
-#resume h1{
-    font-family: 'SleekSL', 'Arial', sans-serif;
-    font-size: 60px;
-    text-align: center;
-}
-
-#resume a {
-    color: #b9a797;
-}
-
-#resume h2{
-    border-bottom: 1px solid #fff;
-    margin-top: 10%;
-    margin-bottom:10%;
-    font-family: 'SleekSL', 'Arial', sans-serif;
-    color: white;
-}
-
-#resume h4 {
-    display:block;
-    font-family: 'SleekSL', 'Arial', sans-serif;
-    margin-top:10px;
-    color:white;
-    font-size: 12pt;
-    text-align: left;
-    word-spacing:normal;
-}
-
-#resume h5 {
-    color:white;
-    font-family: 'SleekSL', 'Arial', sans-serif;
-    /*
-    border-bottom: 1px solid #fff;
-    */
-    padding-bottom: 5px;
-}
-
-#resume li {
-    font-size: 10pt;
-    list-style-type: none;
-    color: #b9a797;
-}
-
-#resume ul li:last-child {
-  margin-bottom: 10px;
-}
 /* PORTFOLIO */
 
 .caption {
   position: relative;
-  margin-top: -114%;
+  margin-top: -112%;
   padding-left:10%;
     padding-right:10%;
-    padding-top:35%;
-    padding-bottom: 43%;
+    padding-top:35.0%;
+    padding-bottom: 41%;
   width: 100%;
   text-align:center;
   color: transparent;
@@ -189,27 +106,28 @@ article {
 }
 
 #portfolio {
-    padding-left: 10%;
-    padding-top: 10%;
-    padding-bottom: 20%;
+    padding-left: 12%;
+    padding-top: 0%;
+    padding-bottom: 10%;
+    margin-top: -12%;
 }
 
 #portfolio > .thumb {
     width: 27%;
     display:inline-block;
-    margin: 5% 5% 0% 0%;   
+    margin: 5% 1.5% 0% 0%;   
 }
 
 #portfolio h2 {
-  font-size: 18px;
-  font-family: 'SleekSL', 'Arial', sans-serif;
+  font-size: 16px;
+  font-family: 'FuturaStd-Medium', 'Arial', sans-serif;
   margin-top: 15px;
   
 }
 
 #portfolio h3 {
-  font-size: 10px;
-  font-family: 'SleekSL', 'Arial', sans-serif;
+  font-size: 12px;
+  font-family: 'FuturaStd-Light', 'Arial', sans-serif;
 
 }
     
@@ -227,10 +145,11 @@ article {
 }
 
 .half img {
-  width: 37%;
+  width: 38.25%;
   display: inline-block;
-    margin: 1%;
+margin-left: 1%;
 }
+
 .third img {
   width: 24%;
   display: inline-block;
@@ -261,22 +180,29 @@ img {
 }
 
 .blurb > h1 {
-	margin: 10% auto 0 auto;
+	margin: 8% auto 0 -24%;
 }
 
 .blurb h1 {
-  font-size: 30px;
+  font-size: 20px;
 }
 
-.blurb h1, .blurb h4 {
+.blurb h1{
 color: #1c1c1c;
+word-spacing: normal;
+}
+
+.blurb h4 {
+color: #b9a797; 
+margin-top: 4%;
+margin-bottom: 1%;  
 word-spacing: normal;
 }
 
 .blurb p {
 color: #b9a797;
 font-size:15px;
-margin-bottom: 10px;
+margin-bottom: 20px;
 }
 
 
@@ -284,6 +210,30 @@ margin-bottom: 10px;
   width: 68%;
   display: block;
   margin: 2% auto 0 auto;
+}
+
+#PD {
+    padding-left: 8%;
+    padding-right: 5%;
+
+}
+
+#VD {
+    padding-left: 8%;
+    padding-right: 5%;
+
+}
+
+#SB {
+    padding-left: 8%;
+    padding-right: 5%;
+
+}
+
+#GD {
+    padding-left: 8%;
+    padding-right: 5%;
+
 }
 
 
@@ -298,36 +248,67 @@ li {
 
 * {
     padding:0px;
-    margin:0;
+    margin:0px;
     box-sizing: border-box;
 }
 /* font-sizes/line-heights*/
 
 h1 {
-    font-family: 'SleekL', 'Arial', sans-serif;
-    color: white;
-    font-size: 4.3em;
+    font-family: 'FuturaStd-Medium', 'Arial', sans-serif;
+    color: black;
+    font-size: 3.6em;
 }
 
 a {
-    color: white;
+    color: black;
     text-decoration: none;
     padding-left: 20px;
 }
 
 h4 {
-    font-family: 'SleekL';
-    color: white;
-    font-size: 1.1em;
+    font-family: 'FuturaStd-Medium';
+    color: black;
+    font-size: 0.9em;
     margin-top: 5px;
-    word-spacing:18px;
+    word-spacing:8px;
 }
 
 nav,
 p {
-    font-family: 'SleekSL';
-    color: white;
+    font-family: 'FuturaStd-Medium';
+    color: black;
     font-size: 1.4em;
+    
+}
+
+#aboutA {
+    margin-top: -8.5%;
+    margin-left: 10%;
+    margin-right: 4%;
+}
+
+.aboutp p {
+    font-family: 'FuturaStd-Light';
+    font-size: 1em;
+}
+.aboutp {
+    padding-bottom: 10%;
+}
+
+li {
+ color: black;
+font-family: 'FuturaStd-LightOblique';
+    overflow: hidden; 
+  text-overflow: ellipsis;
+  white-space: nowrap;
+        display: inline-block;
+
+}
+
+.creds h2{
+    font-family: 'FuturaStd-Heavy';
+    font-size: 1em;
+    padding-top: 2%;
 }
 
 /*
@@ -347,12 +328,12 @@ nav {
 #stickyheader {
     width: 100%;
     height: 40px;
-    margin-bottom: 10px;
+    margin-bottom: -20px;
     left:0;
-    padding-top:15px;
+    padding-top: 15px;
     z-index:9999;
     height:60px;
-    background-color:black;
+    background-color:white;
     word-spacing:100px;
 }
 
@@ -372,29 +353,33 @@ nav {
 
 a {
     text-decoration: none;
+    color: #b9a797;
 }
 
+#social-media {
+    padding-left: 33%;
+}
 #social-media li {
     display: inline-block;
     margin-right: 0px;
+    
 
 }
 
-#contact li{
-    font-family: 'SleekSL';
-    color: black;
-    font-size: 1.4em;
-    margin-left: 50px;
+#name {
+    position: relative;
+    right: 15%;
 }
 
+#contact{
+    position:relative;
+    left: 170%;
+}
 
 /*Backgrounds */
 
 header {
-    background-image: url('Images/homebg.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    text-align: center;
+    text-align: left;
     background-size: cover;
     margin-top: 0%;
 }
@@ -403,18 +388,12 @@ footer {
     background-color: white;
     list-style-type: none;
     text-decoration: none;
-    padding-top: 20px;
+    padding-top: 0px;
     padding-bottom: 20px;
+    align-content: center;
     margin: 0px;
-}
-
-#main {
-    background-image: url('Images/middlebg.jpg');
-    background-position: left;
-    padding: 100px;
-    margin-left: -100px;
-    background-repeat: no-repeat;
-    background-size: contain;
+    padding-right: 20px;
+    
 }
 
 #pages {
@@ -422,32 +401,6 @@ footer {
     bottom: 100px;
 }
 
-#logo {
-    position: relative;
-    left: 200px;
-}
-
-#about {
-    text-align: right;
-    margin-bottom: 0px;
-    margin-right: 90px;
-    position: relative;
-    bottom: 0px;
-}
-
-#me {
-    background-image: url('Images/aboutbg.jpg');
-    background-position: 100% 250%;
-    background-repeat: no-repeat;
-    background-size:70%;
-    padding-top: 5%;
-    padding-bottom: 15%;
-    margin-left:50px;
-}
-
-.paragraph {
-    width: 74.5%;
-}
 
 #social-media .fa {
     color: black;
@@ -460,7 +413,7 @@ footer {
 }
 
 .fa-2x {
-    font-size: 4em;
+    font-size: 3em;
 }
 
 .mobile {
@@ -491,7 +444,7 @@ width: 50%;
 }
 
 .one-fourth {
-    width:25%;  
+    width: 25%;  
 }
 .container {
     width: 955px;
@@ -499,7 +452,10 @@ width: 50%;
 }
 
 header {
-    padding: 16%;
+    padding-bottom: 12%;
+    padding-top: 2%;
+    padding-right: 10%;
+    margin-left: -5%;
 }
 
 .row:after {
