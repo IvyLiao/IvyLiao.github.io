@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    
+    <script type="text/javascript" src="jquery-1.12.0.min.js"></script>
+    <script type = "text/javascript" src = "script.js"></script>
+
+    
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
+    
+    <script src="https://cdn.rawgit.com/vast-engineering/jquery-popup-overlay/1.7.11/jquery.popupoverlay.js"></script>
+
+    <meta charset="utf-8" />
+    
+</head>
+
+<body>
+    
+<div class="container">
+           <header>
+                <section id = "name">
+                    <img src = "Resources/name.svg" class = "img-responsive">
+                </section>
+            </header>
+    
+            <div id="pages" style = "position: fixed;">
+                    <div id = "leftbar">
+
+                        <nav>
+                        <div class = "one-third column">
+                      
+                            <a href="index.html" align = "right"> reel </a>
+                             
+                            <button class="dropdown-btn">portfolio</button>
+                                <div class="dropdown-container">
+                                    <a href="previs.html">previs</a>
+                                    <a href="branding.html">branding</a>
+                                    <a href="production.html">production</a>
+                                </div>
+                    
+                            <a href="about.html">about</a>
+                            <a href="Pages/resume.html"><a target = "_blank" href = "Resources/Resume.pdf">resume</a></a>
+                        </div>
+                        </nav>
+                    </div>
+                    
+                    <div class = "one-third column">
+                            <div id = "contact">
+                            <img src="Resources/contact.svg" class="img-responsive">
+                            </div>
+                    </div>
+            </div>
+
+
+            <div id="stickyalias"></div>
+
+    <div id="othercontent">
+
+    <div class="container">
+        <div class="picrow"> 
+            
+  <div class="piccol">
+    <img src="Images/Portfolio/visdev/1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+    <img src="Images/Portfolio/visdev/5.png" onclick="openModal();currentSlide(2)" class="hover-shadow">
+    <img src="Images/Portfolio/visdev/3.png" onclick="openModal();currentSlide(3)" class="hover-shadow">
+    <img src="Images/Portfolio/visdev/8.png" onclick="openModal();currentSlide(4)" class="hover-shadow">
+      <img src="Images/Portfolio/visdev/7.gif" onclick="openModal();currentSlide(5)" class="hover-shadow">
+
+
+  </div>
+  <div class="piccol">
+          <img src="Images/Portfolio/visdev/2.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow">
+    <img src="Images/Portfolio/visdev/2.5.jpg" onclick="openModal();currentSlide(7)" class="hover-shadow">
+      <img src="Images/Portfolio/visdev/6.jpg" onclick="openModal();currentSlide(8)" class="hover-shadow">
+</div>
+            
+<div class ="piccol">
+    <img src="Images/Portfolio/visdev/4.jpg" onclick="openModal();currentSlide(9)" class="hover-shadow">
+    <img src="Images/Portfolio/visdev/9.jpg"onclick="openModal();currentSlide(10)" class="hover-shadow">
+    <img src="Images/Portfolio/visdev/9.5.jpg" onclick="openModal();currentSlide(11)" class="hover-shadow">
+  </div>
+            
+    <div class="piccol">
+    <img src="Images/Portfolio/visdev/11.jpg" onclick="openModal();currentSlide(12)" class="hover-shadow">
+    <img src="Images/Portfolio/visdev/12.png" onclick="openModal();currentSlide(13)" class="hover-shadow">
+   
+  </div>
+        </div> 
+           
+            <!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 13</div>
+      <img src="Images/Portfolio/visdev/1.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 13</div>
+      <img src="Images/Portfolio/visdev/5.png" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 13</div>
+      <img src="Images/Portfolio/visdev/3.png" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 13</div>
+      <img src="Images/Portfolio/visdev/8.png" style="width:100%">
+    </div>
+      
+       <div class="mySlides">
+      <div class="numbertext">5 / 13</div>
+      <img src="Images/Portfolio/visdev/7.gif" style="width:100%">
+    </div>
+      
+       <div class="mySlides">
+      <div class="numbertext">6 / 13</div>
+      <img src="Images/Portfolio/visdev/2.jpg" style="width:100%">
+    </div>
+      
+       <div class="mySlides">
+      <div class="numbertext">7 / 13</div>
+      <img src="Images/Portfolio/visdev/2.5.jpg" style="width:100%">
+    </div>
+      
+       <div class="mySlides">
+      <div class="numbertext">8 / 13</div>
+      <img src="Images/Portfolio/visdev/6.jpg" style="width:100%">
+    </div>
+      
+       <div class="mySlides">
+      <div class="numbertext">9 / 13</div>
+      <img src="Images/Portfolio/visdev/4.jpg" style="width:100%">
+    </div>
+      
+       <div class="mySlides">
+      <div class="numbertext">10 / 13</div>
+      <img src="Images/Portfolio/visdev/9.jpg" style="width:100%">
+    </div>
+      
+       <div class="mySlides">
+      <div class="numbertext">11 / 13</div>
+      <img src="Images/Portfolio/visdev/9.5.jpg" style="width:100%">
+    </div>
+      
+       <div class="mySlides">
+      <div class="numbertext">12 / 13</div>
+      <img src="Images/Portfolio/visdev/11.jpg" style="width:100%">
+    </div>
+      
+       <div class="mySlides">
+      <div class="numbertext">13 / 13</div>
+      <img src="Images/Portfolio/visdev/12.png" style="width:100%">
+    </div>
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+     
+    
+    
+  </div>
+</div>
+    </div>
+
+        
+    <footer>
+        <div class="container">
+            <div class="row">
+
+
+                    <section id="social-media">
+                        <ul>
+                              <li>
+                                <a target="_blank" href="https://www.linkedin.com/in/iyliao">
+                                    <i class="fa fa-2x fa-linkedin-square">
+                                    </i>
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://www.facebook.com/ivy.liao.585">
+                                    <i class="fa fa-2x fa-facebook-square">
+                                    </i>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a target="_blank" 
+                                   href="https://www.youtube.com/user/ivytoushirohitsugaya/videossort=dd&view=0&shelf_id=0">
+                                    <i class="fa fa-2x fa-youtube-play">
+                                    </i>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a target="_blank" href="http://lriis.deviantart.com/">
+                                    <i class="fa fa-2x fa-deviantart">
+                                    </i>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a target="_blank" href="https://vimeo.com/user17049826">
+                                    <i class="fa fa-2x fa-vimeo-square">
+                                    </i>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </section>
+            
+            </div>
+        </div>
+    </footer>
+ </div>
+    </div>
+</body>
+</html>
